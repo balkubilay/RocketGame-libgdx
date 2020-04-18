@@ -34,24 +34,7 @@ public class EndScreen extends ScreenAdapter {
         int col_width = Gdx.graphics.getWidth() / 12;
         Skin mySkin = new Skin(Gdx.files.internal("skin/glassy-ui.json"));
 
-//        Button button2 = new TextButton("Send Your Score",mySkin,"small");
-//        button2.setSize(col_width*4,row_height);
-//        button2.getStyle().up.setMinWidth(col_width*4);
-//        button2.setPosition(Gdx.graphics.getWidth() * .35f, Gdx.graphics.getHeight() /5);
-//        button2.addListener(new ClickListener(){
-//            @Override
-//            public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
-//                super.touchUp(event, x, y, pointer, button);
-//
-//            }
-//
-//            @Override
-//            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-//                return super.touchDown(event, x, y, pointer, button);
-//            }
-//
-//        });
-//        stage.addActor(button2);
+
 
         Button button3 = new TextButton("Play Again",mySkin,"small");
         button3.setSize(col_width*4,row_height);
