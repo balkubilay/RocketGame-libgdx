@@ -63,27 +63,7 @@ public class TitleScreen extends ScreenAdapter {
         });
         stage.addActor(button2);
 
-//        Skin mySkin2 = new Skin(Gdx.files.internal("skin/glassy-ui.json"));
-//        ImageButton button3 = new ImageButton(mySkin2);
-//        button3.setSize(col_width*3,(row_height*1.5f));
-//        button3.getStyle().imageUp = new TextureRegionDrawable(new TextureRegion(new Texture(Gdx.files.internal("fbs-14.png"))));
-//        button3.getStyle().imageUp.setMinHeight(row_height*2);
-//        button3.getStyle().imageUp.setMinWidth(col_width*4);
-//        button3.setPosition(Gdx.graphics.getWidth() * .35f, Gdx.graphics.getHeight() /5);
-//        button3.addListener(new ClickListener(){
-//            @Override
-//            public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
-//                super.touchUp(event, x, y, pointer, button);
-//                game.setScreen(new HighScores(game));
-//
-//            }
-//
-//            @Override
-//            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-//                return super.touchDown(event, x, y, pointer, button);
-//            }
-//        });
-//        stage.addActor(button3);
+
 
 
     }
