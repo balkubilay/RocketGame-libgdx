@@ -34,8 +34,6 @@ public class EndScreen extends ScreenAdapter {
         int col_width = Gdx.graphics.getWidth() / 12;
         Skin mySkin = new Skin(Gdx.files.internal("skin/glassy-ui.json"));
 
-
-
         Button button3 = new TextButton("Play Again",mySkin,"small");
         button3.setSize(col_width*4,row_height);
         button3.getStyle().up.setMinWidth(col_width*4);

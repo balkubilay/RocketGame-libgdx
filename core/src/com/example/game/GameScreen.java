@@ -144,29 +144,6 @@ public class GameScreen extends ScreenAdapter {
         }else if (gameState == 2){
             game.setScreen(new EndScreen(game));
 
-//            font.draw(game.batch,"Your Score is: " +  score,100,Gdx.graphics.getHeight()/3);
-//            font2.draw(game.batch,"Game Over... Tap To Play Again",100,Gdx.graphics.getHeight()/2 );
-//            if (Gdx.input.justTouched()){
-//                velocity = 0;
-//                scoredEnemy = 0;
-//                score =0;
-//
-//                gameState = 1;}
-//
-//            rocketY = Gdx.graphics.getHeight() / 2;
-//
-//            for (int i = 0; i<numberOfEnemies; i++){
-//
-//
-//                enemyOffSet[i] = (random.nextFloat() - 0.5f) * (Gdx.graphics.getHeight()-200);
-//                enemyOffSet2[i] = (random.nextFloat() - 0.5f) * (Gdx.graphics.getHeight()-200);
-//                enemyOffSet3[i] = (random.nextFloat() - 0.5f) * (Gdx.graphics.getHeight()-200);
-//                enemyX[i] = Gdx.graphics.getWidth() - ufo.getWidth()/2 + i*distance;
-//
-//                enemyCircle[i] = new Circle();
-//                enemyCircle2[i] = new Circle();
-//                enemyCircle3[i] = new Circle();
-//            }
 
 
         }
